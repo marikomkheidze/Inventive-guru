@@ -1,0 +1,68 @@
+.wraper {
+    margin: 0 auto;
+    height: 100%;
+    overflow: hidden;
+}
+
+:root {
+    --orange: #FDCA0B;
+    --black: #000000;
+    --grey: #707070;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.logo-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--orange);
+    padding: 40px;
+    width: 8vw;
+    height: 8vw;
+}
+
+.sec-1 {
+    background: linear-gradient(to right,
+            var (--orange)0%,
+            var (--orange)50%,
+            
+        );
+}
+
+.product {
+    margin-left: 50px;
+    font-family: 'GRAYSTROKE';
+    font-size: 35.4px;
+    color: var(--black);
+    text-transform: capitalize;
+}
+
+.product::after {
+    content: url(../images/Line\ 1.png);
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    width: 33vw;
+    font-family: 'Venn VF Trial';
+    font-size: 20px;
+    color: var(--grey);
+    gap: 30px;
+}
+
+.box {
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 84vw;
+    gap: 96px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+}

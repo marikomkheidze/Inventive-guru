@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Venn VF Trial';
+    src: url('../Fonts/VennVFTrial-Medium.eot');
+    src: url('../Fonts/VennVFTrial-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/VennVFTrial-Medium.woff2') format('woff2'),
+        url('../Fonts/VennVFTrial-Medium.woff') format('woff'),
+        url('../Fonts/VennVFTrial-Medium.ttf') format('truetype'),
+        url('../Fonts/VennVFTrial-Medium.svg#VennVFTrial-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GRAYSTROKE';
+    src: url('../Fonts/GRAYSTROKE.eot');
+    src: url('../Fonts/GRAYSTROKE.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/GRAYSTROKE.woff2') format('woff2'),
+        url('../Fonts/GRAYSTROKE.woff') format('woff'),
+        url('../Fonts/GRAYSTROKE.ttf') format('truetype'),
+        url('../Fonts/GRAYSTROKE.svg#GRAYSTROKE') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
