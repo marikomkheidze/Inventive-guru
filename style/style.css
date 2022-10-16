@@ -115,3 +115,59 @@
     content: url(../images/suffix.svg);
     margin: 0 0.5vw;
 }
+
+.section-2 {
+    padding: 7vw 0;
+    background-color: var(--white);
+}
+
+.offers {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    gap: 2.7vw;
+}
+
+.title-2 {
+    font-family: 'Venn VF Trial';
+    font-size: max(40px, 2.7vw);
+    font-weight: 700;
+    line-height: 100%;
+    color: var(--darkblue);
+    text-align: center;
+    text-transform: capitalize;
+
+}
+.subtitle-2 {
+    opacity: 70%;
+}
+
+.subtitle-2,
+.title-3 {
+    font-family: 'Venn VF Trial';
+    font-size: max(24px, 1.7vw);
+    font-weight: 400;
+    line-height: 160%;
+    color: var(--darkblue);
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.service-wraper {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.service-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.group-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1vw;
+}
