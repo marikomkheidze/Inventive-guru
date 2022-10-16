@@ -6,7 +6,7 @@
         url('../Fonts/VennVFTrial-Medium.woff') format('woff'),
         url('../Fonts/VennVFTrial-Medium.ttf') format('truetype'),
         url('../Fonts/VennVFTrial-Medium.svg#VennVFTrial-Medium') format('svg');
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
