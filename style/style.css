@@ -11,6 +11,7 @@
     --black: #000000;
     --grey: #58525F;
     --lightgrey: #B2B1B8;
+    --red: #FF4D4F;
 }
 
 .head {
@@ -213,9 +214,6 @@
     padding-bottom: 7vw;
 }
 
-
-
-
 .title-4 {
     font-family: 'Venn VF Trial';
     font-size: max(18px, 1.7vw);
@@ -236,4 +234,80 @@
     opacity: 70%;
     text-transform: capitalize;
     text-align: left;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1vw;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Venn VF Trial';
+    font-weight: 400;
+    text-transform: capitalize;
+    color: var(--darkblue);
+}
+
+.textarea {
+    width: 24vw;
+    height: 12vw;
+    resize: none;
+    outline: none;
+    border: none;
+    border: var(--darkblue) solid 1px;
+    border-radius: 4px;
+    background-color: var(--yellow);
+    color: var(--darkblue);
+    font-family: 'Venn VF Trial';
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0.5vw 0;
+}
+
+
+input {
+    width: 24vw;
+    height: 2.5vw;
+    outline: none;
+    border: none;
+    border: var(--darkblue) solid 1px;
+    border-radius: 4px;
+    background-color: var(--yellow);
+    color: var(--darkblue);
+    font-family: 'Venn VF Trial';
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0.5vw 0;
+}
+
+.show {
+    color: var(--red);
+    font-family: 'Venn VF Trial';
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: max(12px, 0.7vw);
+}
+
+.hide {
+    display: none;
+}
+
+.submit {
+    width: 10vw;
+    height: 2.5vw;
+    background-color: var(--darkblue);
+    color: var(--yellow);
+    font-family: 'Venn VF Trial';
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: max(14px, 0.1vw);
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
 }

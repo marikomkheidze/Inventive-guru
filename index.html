@@ -127,39 +127,42 @@
                 </div>
                 <div class="contact">
                     <h1 class="title-4">Contact Us</h1>
-                    <form action="#" class="form" id="form">
+                    <form action="#" class="form" id="form" name="form">
                         <div class="form-control">
-                            <label>Name</label>
-                            <input type="text" placeholder="Enter Name" id="username">
-                            <small>
+                            <label>Name*</label>
+                            <input type="text" placeholder="Enter Name" id="username" name="username"
+                                >
+                            <small class="show hide" id="error">
                                 <i class="fa-solid fa-circle-xmark"></i>
                                 This Field is Required
                             </small>
                         </div>
                         <div class="form-control">
-                            <label>Surname</label>
-                            <input type="text" placeholder="Enter Surname" id="usersurname">
-                            <small>
+                            <label>Surname*</label>
+                            <input type="text" placeholder="Enter Surname" id="usersurname" name="usersurname">
+                            <small class="show hide" id="error">
                                 <i class="fa-solid fa-circle-xmark"></i>
                                 This Field is Required
                             </small>
                         </div>
                         <div class="form-control">
-                            <label>Email</label>
-                            <input type="email" placeholder="Enter email" id="email">
-                            <small>
+                            <label>Email*</label>
+                            <input type="email" placeholder="Enter Email" id="email" name="email">
+                            <small class="show hide" id="error">
                                 <i class="fa-solid fa-circle-xmark"></i>
                                 This Field is Required
                             </small>
                         </div>
                         <div class="form-control">
-                            <label>Name</label>
-                            <input type="text" placeholder="Enter Name" id="username">
-                            <small>
+                            <label>Message*</label>
+                            <textarea name="textarea" id="textarea" placeholder="Enter Message"
+                                class="textarea"></textarea>
+                            <small class="show hide" id="error">
                                 <i class="fa-solid fa-circle-xmark"></i>
                                 This Field is Required
                             </small>
                         </div>
+                        <button type="submit" class="submit">Submit</button>
                     </form>
                 </div>
 
