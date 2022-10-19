@@ -211,7 +211,11 @@
 }
 
 .wishes {
-    padding-bottom: 7vw;
+    background-image: url("../images/footersvg.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 28vw;
 }
 
 .title-4 {
@@ -227,7 +231,7 @@
 .subtitle-4 {
     width: 48vw;
     font-family: 'Venn VF Trial';
-    font-size: max(14px, 1.6vw);
+    font-size: max(14px, 1.5vw);
     font-weight: 400;
     line-height: 160%;
     color: var(--darkblue);
